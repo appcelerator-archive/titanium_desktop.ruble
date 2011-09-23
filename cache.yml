@@ -1,0 +1,44 @@
+!!com.aptana.scripting.model.BundleElement
+author: Appcelerator
+children:
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children: []
+    commandName: Appcelerator Titanium Desktop Developer Center
+    customProperties: null
+    displayName: Appcelerator Titanium Desktop Developer Center
+    path: bundle.rb
+    scope: null
+  commandName: Titanium Desktop
+  customProperties: null
+  displayName: Titanium Desktop
+  path: bundle.rb
+  scope: null
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Titanium Desktop Developer Center
+  input: [selection]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: show_as_html
+  path: commands/appcelerator_titanium_desktop_developer_center.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
+copyright: Copyright 2011 Appcelerator. Distributed under the MIT license.
+customProperties: {contact_email_rot_13: 'null'}
+decreaseIndentMarkers: {}
+description: Support for Appcelerator Titanium Desktop
+displayName: Titanium Mobile
+fileTypeRegistry: {}
+fileTypes: []
+foldingStartMarkers: {}
+foldingStopMarkers: {}
+increaseIndentMarkers: {}
+license: null
+licenseUrl: null
+path: bundle.rb
+repository: git@github.com:appcelerator/titanium_desktop.ruble.git
+visible: true
