@@ -1,3 +1,3 @@
-with_defaults :scope => 'scope.js' do
+with_defaults :scope => 'source.js' do
 
 end
