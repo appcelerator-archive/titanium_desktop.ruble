@@ -1,7 +1,20 @@
 !!com.aptana.scripting.model.BundleElement
 author: Appcelerator
 children:
-- !command
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children: &id002 []
+    commandName: Titanium Desktop Developer Center
+    customProperties: null
+    displayName: Titanium Desktop Developer Center
+    path: bundle.rb
+    scope: null
+  commandName: Titanium Desktop
+  customProperties: null
+  displayName: Titanium Desktop
+  path: bundle.rb
+  scope: null
+- !!com.aptana.scripting.model.CommandElement
   async: false
   customProperties: null
   displayName: Titanium Desktop Developer Center
@@ -14,29 +27,16 @@ children:
   runType: current_thread
   scope: source.js
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.MenuElement
-  children:
-  - children: []
-    commandName: Titanium Desktop Developer Center
-    customProperties: null
-    displayName: Titanium Desktop Developer Center
-    path: bundle.rb
-    scope: null
-  commandName: Titanium Desktop
-  customProperties: null
-  displayName: Titanium Desktop
-  path: bundle.rb
-  scope: null
 copyright: Copyright 2011 Appcelerator. Distributed under the MIT license.
 customProperties: {contact_email_rot_13: 'null'}
-decreaseIndentMarkers: {}
+decreaseIndentMarkers: &id001 {}
 description: Support for Appcelerator Titanium Desktop
 displayName: Titanium Desktop
-fileTypeRegistry: {}
-fileTypes: []
-foldingStartMarkers: {}
-foldingStopMarkers: {}
-increaseIndentMarkers: {}
+fileTypeRegistry: *id001
+fileTypes: *id002
+foldingStartMarkers: *id001
+foldingStopMarkers: *id001
+increaseIndentMarkers: *id001
 license: null
 licenseUrl: null
 path: bundle.rb
