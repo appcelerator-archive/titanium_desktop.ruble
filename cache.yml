@@ -3,7 +3,7 @@ author: Appcelerator
 children:
 - !!com.aptana.scripting.model.MenuElement
   children:
-  - children: &id002 []
+  - children: []
     commandName: Titanium Desktop Developer Center
     customProperties: null
     displayName: Titanium Desktop Developer Center
@@ -18,7 +18,7 @@ children:
   async: false
   customProperties: null
   displayName: Titanium Desktop Developer Center
-  input: [selection]
+  input: [selection, word]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -29,14 +29,14 @@ children:
   workingDirectoryType: UNDEFINED
 copyright: Copyright 2011 Appcelerator. Distributed under the MIT license.
 customProperties: {contact_email_rot_13: 'null'}
-decreaseIndentMarkers: &id001 {}
+decreaseIndentMarkers: {}
 description: Support for Appcelerator Titanium Desktop
 displayName: Titanium Desktop
-fileTypeRegistry: *id001
-fileTypes: *id002
-foldingStartMarkers: *id001
-foldingStopMarkers: *id001
-increaseIndentMarkers: *id001
+fileTypeRegistry: {}
+fileTypes: []
+foldingStartMarkers: {}
+foldingStopMarkers: {}
+increaseIndentMarkers: {}
 license: null
 licenseUrl: null
 path: bundle.rb
