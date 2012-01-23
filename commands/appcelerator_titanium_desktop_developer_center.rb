@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Titanium Desktop Developer Center' do |cmd|
+command t(:developer_center) do |cmd|
   #cmd.key_binding = 'M4+H'
   cmd.output = :show_as_html
   cmd.input = :selection, :word 
