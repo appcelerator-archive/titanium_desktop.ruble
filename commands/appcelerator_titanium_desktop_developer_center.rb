@@ -5,7 +5,7 @@ command t(:developer_center) do |cmd|
   cmd.output = :show_as_html
   cmd.input = :selection, :word 
   #cmd.input = [:selection, :word]
-  cmd.scope = "source.js"
+  cmd.scope = "meta.project.com.appcelerator.titanium.desktop source.js"
   cmd.invoke do |context|
     word = $stdin.read  
     if word.nil? || word == ""
